@@ -21,5 +21,8 @@ function reset(){
 }
 reset();
 console.log(variable);
-
-
+// Arrow Functions
+const multi=(val:number,val1:number):number=>{
+return val*val1;
+}
+console.log(multi(2,6))

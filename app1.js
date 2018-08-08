@@ -20,3 +20,8 @@ function reset() {
 }
 reset();
 console.log(variable);
+// Arrow Functions
+var multi = function (val, val1) {
+    return val * val1;
+};
+console.log(multi(2, 6));
