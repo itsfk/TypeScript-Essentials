@@ -14,4 +14,12 @@ const max=100;
 console.log(max)
 //max=20 const is not assignable again
 
+// Block scope
+function reset(){
+    let variable="null";
+    console.log(variable);
+}
+reset();
+console.log(variable);
+
 
