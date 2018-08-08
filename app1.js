@@ -8,3 +8,8 @@ var myNumber1 = 28;
 // let and cosnt
 var variable = "Test"; // block scope
 console.log(variable);
+variable = "Another value";
+console.log(variable);
+var max = 100;
+console.log(max);
+//max=20 const is not assignable again
