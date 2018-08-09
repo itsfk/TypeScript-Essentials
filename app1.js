@@ -25,3 +25,6 @@ var multi = function (val, val1) {
     return val * val1;
 };
 console.log(multi(2, 6));
+// Spread Operator spreads the array into a list
+var numbers = [1, 12, 14, 99];
+console.log(Math.max.apply(Math, numbers));
