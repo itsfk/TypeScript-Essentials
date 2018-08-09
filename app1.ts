@@ -30,3 +30,8 @@ console.log(multi(2,6))
 // Spread Operator spreads the array into a list
 const numbers =[1,12,14,99];
 console.log(Math.max(...numbers))
+// Rest Operator opposite to Spread Operator makesIntoArray
+function makesArray(...args:number[]){
+    return args;
+}
+console.log(makesArray(1,2))
