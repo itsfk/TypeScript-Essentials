@@ -35,3 +35,8 @@ function makesArray(...args:number[]){
     return args;
 }
 console.log(makesArray(1,2))
+
+// Destructing Arrays
+const myHobbbies = ["sports","Reading"]
+const [hobbies1,hobbies2] =myHobbbies;
+console.log(hobbies1,hobbies2)

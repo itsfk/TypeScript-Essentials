@@ -37,3 +37,7 @@ function makesArray() {
     return args;
 }
 console.log(makesArray(1, 2));
+// Destructing Arrays
+var myHobbbies = ["sports", "Reading"];
+var hobbies1 = myHobbbies[0], hobbies2 = myHobbbies[1];
+console.log(hobbies1, hobbies2);
