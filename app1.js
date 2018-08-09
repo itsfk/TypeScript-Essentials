@@ -41,3 +41,10 @@ console.log(makesArray(1, 2));
 var myHobbbies = ["sports", "Reading"];
 var hobbies1 = myHobbbies[0], hobbies2 = myHobbbies[1];
 console.log(hobbies1, hobbies2);
+// Destructing Objects
+var userData = {
+    name12: "Faiz",
+    age: 22
+};
+var name12 = userData.name12, age = userData.age;
+console.log(name12, age);

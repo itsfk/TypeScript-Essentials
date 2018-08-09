@@ -40,3 +40,11 @@ console.log(makesArray(1,2))
 const myHobbbies = ["sports","Reading"]
 const [hobbies1,hobbies2] =myHobbbies;
 console.log(hobbies1,hobbies2)
+
+// Destructing Objects
+const userData={
+    name12:"Faiz",
+    age:22
+}
+const {name12,age}=userData
+console.log(name12,age)
